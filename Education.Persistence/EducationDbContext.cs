@@ -10,12 +10,18 @@ namespace Education.Persistence
 {
     public class EducationDbContext : DbContext
     {
-        public EducationDbContext(DbContextOptions<EducationDbContext> options): base(options)
-        {
-
-        }
+        public EducationDbContext() { }
+        public EducationDbContext(DbContextOptions<EducationDbContext> options): base(options) { }
 
         public DbSet<Curso> Cursos { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder options)
+        {
+            if (!options.IsConfigured)
+            {
+                options.UseSqlServer("Server=.;database=Education;Trusted_Connection=True");
+            }
+        }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

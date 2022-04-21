@@ -18,8 +18,4 @@
     <ProjectReference Include="..\Education.Persistence\Education.Persistence.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Map\" />
-  </ItemGroup>
-
 </Project>
