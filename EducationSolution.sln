@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Domain", "Educati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Persistence", "Education.Persistence\Education.Persistence.csproj", "{E83F1F42-E588-413A-8D0D-CBBD6DDD6111}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Applicatio", "Education.Applicatio\Education.Applicatio.csproj", "{F21C21FF-355F-47D5-9AC3-413DACDE14EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Application", "Education.Applicatio\Education.Application.csproj", "{F21C21FF-355F-47D5-9AC3-413DACDE14EE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Api", "Education.Api\Education.Api.csproj", "{754E6E0B-C123-441B-8156-CB634C1B18A3}"
 EndProject
