@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Domain", "Education.Domain\Education.Domain.csproj", "{B488289E-FC7F-487C-9EFF-B16C88AFADFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Domain", "Education.Domain\Education.Domain.csproj", "{B488289E-FC7F-487C-9EFF-B16C88AFADFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Persistence", "Education.Persistence\Education.Persistence.csproj", "{E83F1F42-E588-413A-8D0D-CBBD6DDD6111}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Persistence", "Education.Persistence\Education.Persistence.csproj", "{E83F1F42-E588-413A-8D0D-CBBD6DDD6111}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Application", "Education.Applicatio\Education.Application.csproj", "{F21C21FF-355F-47D5-9AC3-413DACDE14EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Application", "Education.Applicatio\Education.Application.csproj", "{F21C21FF-355F-47D5-9AC3-413DACDE14EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Api", "Education.Api\Education.Api.csproj", "{754E6E0B-C123-441B-8156-CB634C1B18A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Education.Api", "Education.Api\Education.Api.csproj", "{754E6E0B-C123-441B-8156-CB634C1B18A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Education.Application.NUnitTest", "Education.Application.NUnitTest\Education.Application.NUnitTest.csproj", "{685D58C9-9F50-4811-984C-D165DA88EBB7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{754E6E0B-C123-441B-8156-CB634C1B18A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{754E6E0B-C123-441B-8156-CB634C1B18A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{754E6E0B-C123-441B-8156-CB634C1B18A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{685D58C9-9F50-4811-984C-D165DA88EBB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{685D58C9-9F50-4811-984C-D165DA88EBB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{685D58C9-9F50-4811-984C-D165DA88EBB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{685D58C9-9F50-4811-984C-D165DA88EBB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

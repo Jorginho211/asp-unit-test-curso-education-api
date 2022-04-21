@@ -30,7 +30,7 @@ namespace Education.Application.Cursos
         {
             private readonly EducationDbContext _context;
 
-            public CreateCursoCommandHandler(EducationDbContext context, IMapper mapper)
+            public CreateCursoCommandHandler(EducationDbContext context)
             {
                 _context = context;
             }
